@@ -1,0 +1,23 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Double-chevron "skip forward" mark, rounded strokes for a softer,
+         more contemporary feel than a hard-edged filled triangle. -->
+    <path
+        android:pathData="M38,32 L58,54 L38,76"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="10"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M58,32 L78,54 L58,76"
+        android:strokeColor="#FFFFFF"
+        android:strokeAlpha="0.85"
+        android:strokeWidth="10"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+</vector>

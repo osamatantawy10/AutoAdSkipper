@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Auto Ad Skipper</string>
+    <string name="accessibility_service_description">Auto Ad Skipper reads on-screen button labels and IDs to find standard \"Skip Ad\" buttons and tap them automatically. It does not read passwords, messages, or any other personal content, and never sends what it reads off your device.</string>
+    <string name="notification_channel_name">Ad Skip Alerts</string>
+    <string name="notification_channel_desc">Notifies you when an ad is automatically skipped</string>
+    <string name="monitoring_channel_name">Monitoring Status</string>
+    <string name="monitoring_channel_desc">Persistent low-priority status showing that Auto Ad Skipper is watching for ads, with pause/resume controls</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_stats">Stats</string>
+    <string name="nav_apps">Apps</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home screen -->
+    <string name="home_title">Auto Ad Skipper</string>
+    <string name="home_service_status">Service Status</string>
+    <string name="home_status_running">Running</string>
+    <string name="home_status_paused">Paused</string>
+    <string name="home_status_permission_needed">Permission needed</string>
+    <string name="home_status_disabled">Disabled</string>
+    <string name="home_permission_explainer">Accessibility permission isn\'t granted yet. Auto Ad Skipper needs it to detect and tap skip buttons.</string>
+    <string name="home_open_accessibility_settings">Open Accessibility Settings</string>
+    <string name="home_pause_monitoring">Pause Monitoring</string>
+    <string name="home_resume_monitoring">Resume Monitoring</string>
+    <string name="home_ads_today">Ads Skipped Today</string>
+    <string name="home_ads_total">Total Ads Skipped</string>
+    <string name="home_last_app_detected">Last App Detected</string>
+    <string name="home_no_ads_yet">No ads skipped yet</string>
+    <string name="home_last_skip_prefix">Last skip: %1$s</string>
+    <string name="home_time_saved">Time Saved Today</string>
+    <string name="home_time_saved_total">Total Time Saved</string>
+    <string name="home_time_saved_estimate_note">Estimated, based on typical ad length</string>
+    <string name="home_system_health">System Health</string>
+    <string name="home_check">Check</string>
+
+    <!-- Settings screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_auto_skip">Auto Skip</string>
+    <string name="settings_auto_skip_sub">Enable or disable ad-skipping</string>
+    <string name="settings_sensitivity">Detection Sensitivity</string>
+    <string name="settings_sensitivity_high">High</string>
+    <string name="settings_sensitivity_standard">Standard</string>
+    <string name="settings_delay_title">Delay Before Click</string>
+    <string name="settings_vibration">Vibration on Skip</string>
+    <string name="settings_vibration_sub">Short vibration each time an ad is skipped</string>
+    <string name="settings_sound">Sound Feedback</string>
+    <string name="settings_sound_sub">Short tone each time an ad is skipped</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_notifications_sub">Show skip alerts and the persistent monitoring status</string>
+    <string name="settings_start_on_boot">Start Monitoring on Boot</string>
+    <string name="settings_start_on_boot_sub">Resume monitoring automatically after your phone restarts</string>
+    <string name="settings_ai_beta">Experimental AI Detection (Beta)</string>
+    <string name="settings_ai_beta_sub">Coming in a future update — visual button recognition when text/ID matching fails. Has no effect yet.</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_theme_system">System Default</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_lang_system">System Default</string>
+    <string name="settings_lang_en">English</string>
+    <string name="settings_lang_ar">العربية</string>
+    <string name="settings_change">Change</string>
+    <string name="settings_health_check">Accessibility Health Check</string>
+    <string name="settings_health_check_sub">Verify all required permissions are granted</string>
+    <string name="settings_privacy">Privacy &amp; Security</string>
+    <string name="settings_privacy_sub">What data this app reads, and what it never does</string>
+    <string name="settings_open">Open</string>
+
+    <!-- Notifications (generated at runtime by the accessibility service) -->
+    <string name="notif_ad_skipped_in">Ad skipped in %1$s</string>
+    <string name="notif_monitoring_active">Monitoring ads — %1$d skipped today</string>
+    <string name="notif_monitoring_paused">Monitoring paused</string>
+    <string name="notif_action_pause">Pause</string>
+    <string name="notif_action_resume">Resume</string>
+</resources>

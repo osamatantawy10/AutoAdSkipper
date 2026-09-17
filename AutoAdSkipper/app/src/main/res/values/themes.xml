@@ -1,0 +1,3 @@
+<resources>
+    <style name="Theme.AutoAdSkipper" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

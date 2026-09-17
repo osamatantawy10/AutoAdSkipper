@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">متخطي الإعلانات التلقائي</string>
+    <string name="accessibility_service_description">يقرأ التطبيق نصوص ومعرّفات الأزرار الظاهرة على الشاشة للعثور على أزرار \"تخطي الإعلان\" القياسية والنقر عليها تلقائياً. لا يقرأ التطبيق كلمات المرور أو الرسائل أو أي محتوى شخصي آخر، ولا يرسل أبداً ما يقرأه من جهازك.</string>
+    <string name="notification_channel_name">تنبيهات تخطي الإعلانات</string>
+    <string name="notification_channel_desc">يُعلمك عند تخطي إعلان تلقائياً</string>
+    <string name="monitoring_channel_name">حالة المراقبة</string>
+    <string name="monitoring_channel_desc">حالة مستمرة منخفضة الأولوية تُظهر أن التطبيق يراقب الإعلانات، مع أزرار إيقاف/استئناف مؤقت</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_stats">الإحصائيات</string>
+    <string name="nav_apps">التطبيقات</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- Home screen -->
+    <string name="home_title">متخطي الإعلانات التلقائي</string>
+    <string name="home_service_status">حالة الخدمة</string>
+    <string name="home_status_running">تعمل</string>
+    <string name="home_status_paused">متوقفة مؤقتاً</string>
+    <string name="home_status_permission_needed">الإذن مطلوب</string>
+    <string name="home_status_disabled">متوقفة</string>
+    <string name="home_permission_explainer">لم يتم منح إذن إمكانية الوصول بعد. يحتاج التطبيق إلى هذا الإذن للكشف عن أزرار التخطي والنقر عليها.</string>
+    <string name="home_open_accessibility_settings">فتح إعدادات إمكانية الوصول</string>
+    <string name="home_pause_monitoring">إيقاف المراقبة مؤقتاً</string>
+    <string name="home_resume_monitoring">استئناف المراقبة</string>
+    <string name="home_ads_today">الإعلانات المتخطاة اليوم</string>
+    <string name="home_ads_total">إجمالي الإعلانات المتخطاة</string>
+    <string name="home_last_app_detected">آخر تطبيق تم رصده</string>
+    <string name="home_no_ads_yet">لم يتم تخطي أي إعلانات بعد</string>
+    <string name="home_last_skip_prefix">آخر تخطٍ: %1$s</string>
+    <string name="home_time_saved">الوقت الموفر اليوم</string>
+    <string name="home_time_saved_total">إجمالي الوقت الموفر</string>
+    <string name="home_time_saved_estimate_note">تقدير تقريبي، بناءً على متوسط مدة الإعلانات</string>
+    <string name="home_system_health">سلامة النظام</string>
+    <string name="home_check">فحص</string>
+
+    <!-- Settings screen -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_auto_skip">التخطي التلقائي</string>
+    <string name="settings_auto_skip_sub">تفعيل أو تعطيل تخطي الإعلانات</string>
+    <string name="settings_sensitivity">حساسية الكشف</string>
+    <string name="settings_sensitivity_high">عالية</string>
+    <string name="settings_sensitivity_standard">قياسية</string>
+    <string name="settings_delay_title">التأخير قبل النقر</string>
+    <string name="settings_vibration">الاهتزاز عند التخطي</string>
+    <string name="settings_vibration_sub">اهتزاز قصير في كل مرة يتم فيها تخطي إعلان</string>
+    <string name="settings_sound">التنبيه الصوتي</string>
+    <string name="settings_sound_sub">نغمة قصيرة في كل مرة يتم فيها تخطي إعلان</string>
+    <string name="settings_notifications">الإشعارات</string>
+    <string name="settings_notifications_sub">إظهار تنبيهات التخطي وحالة المراقبة المستمرة</string>
+    <string name="settings_start_on_boot">بدء المراقبة عند التشغيل</string>
+    <string name="settings_start_on_boot_sub">استئناف المراقبة تلقائياً بعد إعادة تشغيل الهاتف</string>
+    <string name="settings_ai_beta">كشف الذكاء الاصطناعي التجريبي (بيتا)</string>
+    <string name="settings_ai_beta_sub">قادم في تحديث مستقبلي — التعرف البصري على الأزرار عند فشل مطابقة النص أو المعرّف. لا تأثير له حالياً.</string>
+    <string name="settings_theme">المظهر</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_theme_system">الافتراضي للنظام</string>
+    <string name="settings_theme_light">فاتح</string>
+    <string name="settings_theme_dark">داكن</string>
+    <string name="settings_lang_system">الافتراضي للنظام</string>
+    <string name="settings_lang_en">English</string>
+    <string name="settings_lang_ar">العربية</string>
+    <string name="settings_change">تغيير</string>
+    <string name="settings_health_check">فحص إمكانية الوصول</string>
+    <string name="settings_health_check_sub">التحقق من منح جميع الأذونات المطلوبة</string>
+    <string name="settings_privacy">الخصوصية والأمان</string>
+    <string name="settings_privacy_sub">ما الذي يقرأه هذا التطبيق، وما لا يفعله أبداً</string>
+    <string name="settings_open">فتح</string>
+
+    <!-- Notifications -->
+    <string name="notif_ad_skipped_in">تم تخطي إعلان في %1$s</string>
+    <string name="notif_monitoring_active">جارٍ المراقبة — تم تخطي %1$d إعلان اليوم</string>
+    <string name="notif_monitoring_paused">المراقبة متوقفة مؤقتاً</string>
+    <string name="notif_action_pause">إيقاف مؤقت</string>
+    <string name="notif_action_resume">استئناف</string>
+</resources>
